@@ -28,4 +28,4 @@ def hello_world():  # put application's code here
 
 
 if __name__ == '__main__':
-    app.run(debug=bool(os.environ.get('APP_DEBUG')))
+    app.run(host='0.0.0.0')
